@@ -1,0 +1,13 @@
+article {
+  background-color: whitesmoke;
+  border-radius: 15px 15px 0px 0px;
+}
+
+article h2 {
+  font-size: 18px;
+  color: #494949;
+  text-align: left;
+  padding: 25px 25px 50px;
+  line-height: 1.6;
+}
+/*# sourceMappingURL=article.css.map */

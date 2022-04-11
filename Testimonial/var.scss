@@ -1,0 +1,9 @@
+@mixin ImgCrop {
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+    height: 100px;
+    width: 100px;
+}
+
+$background : whitesmoke;
+$textsize : 20px;

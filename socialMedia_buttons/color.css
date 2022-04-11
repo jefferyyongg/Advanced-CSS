@@ -1,0 +1,102 @@
+.blodge {
+  position: relative;
+  top: 65px;
+  right: 10px;
+  -webkit-transition: right 1s ease-out;
+  transition: right 1s ease-out;
+}
+
+.blog {
+  background-color: #e17b77;
+  position: relative;
+  margin: 0px;
+  margin-left: auto;
+  left: 0px;
+  width: 50px;
+  height: 30px;
+  top: 50px;
+  -webkit-transition: width 1s, left 1s;
+  transition: width 1s, left 1s;
+}
+
+.blog:hover {
+  right: 5px;
+  width: 125px;
+}
+
+.blog::before {
+  content: url("blog.png");
+}
+
+.twitter {
+  background-color: #00aced;
+  position: relative;
+  margin: 0px;
+  margin-left: auto;
+  left: 0px;
+  width: 50px;
+  height: 30px;
+  top: 60px;
+  -webkit-transition: width 1s, left 1s;
+  transition: width 1s, left 1s;
+}
+
+.twitter:hover {
+  right: 5px;
+  width: 125px;
+}
+
+.linkedin {
+  background-color: #007bb6;
+  position: relative;
+  margin: 0px;
+  margin-left: auto;
+  left: 0px;
+  width: 50px;
+  height: 30px;
+  top: 70px;
+  -webkit-transition: width 1s, left 1s;
+  transition: width 1s, left 1s;
+}
+
+.linkedin:hover {
+  right: 5px;
+  width: 125px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  position: relative;
+  margin: 0px;
+  margin-left: auto;
+  left: 0px;
+  width: 50px;
+  height: 30px;
+  top: 80px;
+  -webkit-transition: width 1s, left 1s;
+  transition: width 1s, left 1s;
+}
+
+.facebook:hover {
+  right: 5px;
+  width: 125px;
+}
+
+.github {
+  background-color: #333;
+  position: relative;
+  margin: 0px;
+  margin-left: auto;
+  left: 0px;
+  width: 50px;
+  height: 30px;
+  top: 90px;
+  -webkit-transition: width 1s, left 1s;
+  transition: width 1s, left 1s;
+}
+
+.github:hover {
+  right: 5px;
+  width: 125px;
+}
+/*# sourceMappingURL=color.css.map */

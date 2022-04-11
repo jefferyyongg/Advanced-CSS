@@ -1,0 +1,11 @@
+article {
+    background-color: $background;
+    border-radius: 15px 15px 0px 0px;
+    h2{
+        font-size: $textsize;
+        color: rgb(73, 73, 73);
+        text-align: left;
+        padding: 25px 25px 50px;
+        line-height: 1.6;
+    }
+}

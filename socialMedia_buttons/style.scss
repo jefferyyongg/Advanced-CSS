@@ -1,0 +1,51 @@
+@mixin IconAnimation($color, $len , $width){
+    position: relative;
+    background-color: $color;
+    width: $width;
+    height: 48px;
+    margin-left: auto;
+    transition: right 1s, width 1s;
+    padding-left: 5px;
+    text-align: start;
+    right: $len;
+    .avatar {
+        padding-top: 8px;
+    }
+    &:hover{
+        right: -10px;
+        a {
+            opacity: 1;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        opacity: 0;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        transition: opacity .5s;
+    }
+}
+
+
+.blog {
+    @include IconAnimation(#e17b77, -140px, 175px)
+}
+
+.twitter {
+    @include IconAnimation(#00aced, -140px, 175px)
+}
+
+.linkedin {
+    @include IconAnimation(#007bb6, -140px, 175px)
+}
+
+.facebook {
+    @include IconAnimation(#3b5998, -155px, 190px)
+    
+}
+
+.github {
+    @include IconAnimation(#333, -155px, 190px)
+}

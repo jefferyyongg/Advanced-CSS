@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "./var.scss";
+@import "./article.scss";
+@import "./footer.scss";
+@import "./smbuttons.scss";
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c3cfe2;
+}
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c3cfe2;
+    justify-content: center;
+    width: 70%;
+    margin: 20px auto;
+  }
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 5px 1px gray;
+    margin: 0px auto;
+    .avatar {
+      position: absolute;
+      left: 120px;
+      bottom: 80px;
+      img {
+          @include ImgCrop;
+        }
+    }
+}
+
+.wrapper {
+    position: relative;
+    padding: 20px;
+    &:hover {
+      .overlay {
+        opacity: 1;
+      }
+    }
+    img {
+      border-radius: 10%;
+    }
+  }
+
+  .overlay {
+    transition: opacity 0.5s ease;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border-radius: 10%;
+    background-color: steelblue;
+    opacity: 0;
+    button {
+      position: absolute;
+      left: 110px;
+      top: 120px;
+    }
+  }
+

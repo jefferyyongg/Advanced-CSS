@@ -28,6 +28,12 @@
     }
 }
 
+.smButtons {
+    position: fixed;
+    top: 60%;
+    right: 0px;
+}
+
 
 .blog {
     @include IconAnimation(#e17b77, -140px, 175px)

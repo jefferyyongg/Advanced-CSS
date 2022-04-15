@@ -1,3 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+article {
+  background-color: whitesmoke;
+  border-radius: 15px 15px 0px 0px;
+}
+
+article h2 {
+  font-size: 20px;
+  color: #494949;
+  text-align: left;
+  padding: 25px 25px 50px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #686de0;
+  border-radius: 0px 0px 15px 15px;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer .name {
+  padding-top: 25px;
+  font-size: 30px;
+  color: whitesmoke;
+  margin-bottom: 5px;
+}
+
+footer .website {
+  font-size: 20px;
+  color: gray;
+  margin-top: 0px;
+}
+
+.smButtons {
+  position: fixed;
+  top: 60%;
+  right: 0px;
+}
+
 .blog {
   position: relative;
   background-color: #e17b77;
@@ -176,5 +218,84 @@
   right: 10px;
   -webkit-transition: opacity .5s;
   transition: opacity .5s;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #c3cfe2;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #c3cfe2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 15px;
+  -webkit-box-shadow: 6px 6px 5px 1px gray;
+          box-shadow: 6px 6px 5px 1px gray;
+  margin: 0px auto;
+}
+
+.container .avatar {
+  position: absolute;
+  left: 120px;
+  bottom: 80px;
+}
+
+.container .avatar img {
+  border-radius: 50%;
+  border: 5px solid whitesmoke;
+  height: 100px;
+  width: 100px;
+}
+
+.wrapper {
+  position: relative;
+  padding: 20px;
+}
+
+.wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.wrapper img {
+  border-radius: 10%;
+}
+
+.overlay {
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  border-radius: 10%;
+  background-color: steelblue;
+  opacity: 0;
+}
+
+.overlay button {
+  position: absolute;
+  left: 110px;
+  top: 120px;
 }
 /*# sourceMappingURL=style.css.map */

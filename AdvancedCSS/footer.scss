@@ -1,15 +1,7 @@
 footer {
     background-color: #686de0;
     border-radius: 0px 0px 15px 15px;
-
-    .avatar {
-        position: absolute;
-        left: 125px;
-        top: 275px;
-        img {
-            @include ImgCrop;
-          }
-      }
+    
     p {
         text-align: center;
     }

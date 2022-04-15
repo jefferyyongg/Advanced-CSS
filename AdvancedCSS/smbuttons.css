@@ -1,0 +1,186 @@
+.smButtons {
+  position: fixed;
+  top: 60%;
+  right: 0px;
+}
+
+.blog {
+  position: relative;
+  background-color: #e17b77;
+  width: 175px;
+  height: 48px;
+  margin-left: auto;
+  -webkit-transition: right 1s, width 1s;
+  transition: right 1s, width 1s;
+  padding-left: 5px;
+  text-align: start;
+  right: -140px;
+}
+
+.blog .avatar {
+  padding-top: 8px;
+}
+
+.blog:hover {
+  right: -10px;
+}
+
+.blog:hover a {
+  opacity: 1;
+}
+
+.blog a {
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.twitter {
+  position: relative;
+  background-color: #00aced;
+  width: 175px;
+  height: 48px;
+  margin-left: auto;
+  -webkit-transition: right 1s, width 1s;
+  transition: right 1s, width 1s;
+  padding-left: 5px;
+  text-align: start;
+  right: -140px;
+}
+
+.twitter .avatar {
+  padding-top: 8px;
+}
+
+.twitter:hover {
+  right: -10px;
+}
+
+.twitter:hover a {
+  opacity: 1;
+}
+
+.twitter a {
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.linkedin {
+  position: relative;
+  background-color: #007bb6;
+  width: 175px;
+  height: 48px;
+  margin-left: auto;
+  -webkit-transition: right 1s, width 1s;
+  transition: right 1s, width 1s;
+  padding-left: 5px;
+  text-align: start;
+  right: -140px;
+}
+
+.linkedin .avatar {
+  padding-top: 8px;
+}
+
+.linkedin:hover {
+  right: -10px;
+}
+
+.linkedin:hover a {
+  opacity: 1;
+}
+
+.linkedin a {
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.facebook {
+  position: relative;
+  background-color: #3b5998;
+  width: 190px;
+  height: 48px;
+  margin-left: auto;
+  -webkit-transition: right 1s, width 1s;
+  transition: right 1s, width 1s;
+  padding-left: 5px;
+  text-align: start;
+  right: -155px;
+}
+
+.facebook .avatar {
+  padding-top: 8px;
+}
+
+.facebook:hover {
+  right: -10px;
+}
+
+.facebook:hover a {
+  opacity: 1;
+}
+
+.facebook a {
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.github {
+  position: relative;
+  background-color: #333;
+  width: 190px;
+  height: 48px;
+  margin-left: auto;
+  -webkit-transition: right 1s, width 1s;
+  transition: right 1s, width 1s;
+  padding-left: 5px;
+  text-align: start;
+  right: -155px;
+}
+
+.github .avatar {
+  padding-top: 8px;
+}
+
+.github:hover {
+  right: -10px;
+}
+
+.github:hover a {
+  opacity: 1;
+}
+
+.github a {
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+/*# sourceMappingURL=smbuttons.css.map */
